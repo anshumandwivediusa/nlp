@@ -16,7 +16,7 @@ It enables NLP systems to understand:
 
 Discourse Analysis is fundamental to modern applications such as **chatbots, virtual assistants, document summarization, question answering, Retrieval-Augmented Generation (RAG), and Large Language Models (LLMs).**
 
----
+
 
 # Objectives
 
@@ -26,7 +26,7 @@ Discourse Analysis is fundamental to modern applications such as **chatbots, vir
 - Identify logical discourse relationships.
 - Improve coherence and document understanding.
 
----
+
 
 # Where Discourse Analysis Fits in the NLP Pipeline
 
@@ -52,7 +52,7 @@ Discourse Analysis
 Pragmatic Analysis
 ```
 
----
+
 
 # Example Paragraph
 
@@ -69,7 +69,7 @@ To understand this paragraph, an NLP system must determine:
 - Sentence 2 elaborates on Sentence 1.
 - Sentence 3 provides additional context.
 
----
+
 
 # Core Techniques
 
@@ -84,7 +84,7 @@ It answers questions like:
 - Who does **he** refer to?
 - What does **it** refer to?
 
----
+
 
 ### Example
 
@@ -102,7 +102,7 @@ He  → Satya Nadella
 it  → AI platform
 ```
 
----
+
 
 ### Applications
 
@@ -112,7 +112,7 @@ it  → AI platform
 - Knowledge Graph Construction
 - Document Summarization
 
----
+
 
 ## 2. Context Tracking
 
@@ -122,7 +122,7 @@ Context Tracking maintains the current topic, entities, and conversation state a
 
 Without context tracking, conversational systems would lose track of previous information.
 
----
+
 
 ### Example
 
@@ -146,7 +146,7 @@ CEO → Satya Nadella
 
 The assistant remembers that **its** refers to **Microsoft**.
 
----
+
 
 ### Applications
 
@@ -156,7 +156,7 @@ The assistant remembers that **its** refers to **Microsoft**.
 - Customer Support Systems
 - Multi-turn Question Answering
 
----
+
 
 ## 3. Discourse Parsing
 
@@ -176,7 +176,7 @@ Common discourse relations include:
 - Sequence
 - Condition
 
----
+
 
 ### Example 1 (Cause)
 
@@ -194,7 +194,7 @@ Cause
 Effect
 ```
 
----
+
 
 ### Example 2 (Elaboration)
 
@@ -213,7 +213,7 @@ Elaborates
 Sentence 1
 ```
 
----
+
 
 ### Applications
 
@@ -223,7 +223,7 @@ Sentence 1
 - Essay Analysis
 - Legal Document Processing
 
----
+
 
 # Comparison of Techniques
 
@@ -233,7 +233,6 @@ Sentence 1
 | **Context Tracking** | Maintains context across multiple sentences or conversations | `its → Microsoft` |
 | **Discourse Parsing** | Identifies logical relationships between sentences | Cause, Contrast, Elaboration |
 
----
 
 # Real-World Example
 
@@ -276,7 +275,7 @@ Cause
 Sentence 2
 ```
 
----
+
 
 # Industry Applications
 
@@ -292,7 +291,7 @@ Sentence 2
 | Legal AI | Analyze contracts and legal documents |
 | Retrieval-Augmented Generation (RAG) | Maintain context across retrieved documents |
 
----
+
 
 # Traditional NLP vs Modern LLMs
 
@@ -304,7 +303,7 @@ Sentence 2
 
 Modern Large Language Models learn many discourse relationships automatically through self-attention, but explicit discourse analysis remains valuable for explainability, information extraction, long-document understanding, and enterprise NLP applications.
 
----
+
 
 # Best Practices
 
@@ -314,7 +313,7 @@ Modern Large Language Models learn many discourse relationships automatically th
 - Preserve document context for long-form reasoning.
 - Combine discourse analysis with retrieval for RAG systems.
 
----
+
 
 # Summary
 
