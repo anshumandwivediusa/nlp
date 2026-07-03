@@ -18,7 +18,7 @@ Discourse Analysis is fundamental to modern applications such as **chatbots, vir
 
 
 
-# Objectives
+## Objectives
 
 - Understand relationships across multiple sentences.
 - Resolve references to entities.
@@ -28,7 +28,7 @@ Discourse Analysis is fundamental to modern applications such as **chatbots, vir
 
 
 
-# Where Discourse Analysis Fits in the NLP Pipeline
+## Where Discourse Analysis Fits in the NLP Pipeline
 
 ```text
 Raw Text
@@ -54,7 +54,7 @@ Pragmatic Analysis
 
 
 
-# Example Paragraph
+## Example Paragraph
 
 ```text
 Satya Nadella announced a new AI platform.
