@@ -71,11 +71,11 @@ To understand this paragraph, an NLP system must determine:
 
 
 
-# Core Techniques
+## Core Techniques
 
-## 1. Coreference Resolution
+### 1. Coreference Resolution
 
-### Definition
+#### Definition
 
 Coreference Resolution identifies when multiple words or phrases refer to the **same real-world entity**.
 
@@ -86,7 +86,7 @@ It answers questions like:
 
 
 
-### Example
+#### Example
 
 **Input**
 
@@ -104,7 +104,7 @@ it  → AI platform
 
 
 
-### Applications
+#### Applications
 
 - Question Answering
 - Chatbots
@@ -114,9 +114,9 @@ it  → AI platform
 
 
 
-## 2. Context Tracking
+### 2. Context Tracking
 
-### Definition
+#### Definition
 
 Context Tracking maintains the current topic, entities, and conversation state across multiple sentences or dialogue turns.
 
@@ -124,7 +124,7 @@ Without context tracking, conversational systems would lose track of previous in
 
 
 
-### Example
+#### Example
 
 ```text
 User:
@@ -148,7 +148,7 @@ The assistant remembers that **its** refers to **Microsoft**.
 
 
 
-### Applications
+#### Applications
 
 - Conversational AI
 - Chatbots
@@ -158,9 +158,9 @@ The assistant remembers that **its** refers to **Microsoft**.
 
 
 
-## 3. Discourse Parsing
+### 3. Discourse Parsing
 
-### Definition
+#### Definition
 
 Discourse Parsing identifies the **logical relationships between sentences or clauses**.
 
@@ -178,7 +178,7 @@ Common discourse relations include:
 
 
 
-### Example 1 (Cause)
+#### Example 1 (Cause)
 
 ```text
 The roads were flooded.
@@ -196,7 +196,7 @@ Effect
 
 
 
-### Example 2 (Elaboration)
+#### Example 2 (Elaboration)
 
 ```text
 Microsoft released a new AI model.
@@ -215,7 +215,7 @@ Sentence 1
 
 
 
-### Applications
+#### Applications
 
 - Text Summarization
 - Reading Comprehension
@@ -225,7 +225,7 @@ Sentence 1
 
 
 
-# Comparison of Techniques
+## Comparison of Techniques
 
 | Technique | Purpose | Example |
 |------------|---------|---------|
@@ -234,9 +234,9 @@ Sentence 1
 | **Discourse Parsing** | Identifies logical relationships between sentences | Cause, Contrast, Elaboration |
 
 
-# Real-World Example
+## Real-World Example
 
-## Input
+### Input
 
 ```text
 Microsoft announced Copilot.
@@ -244,7 +244,7 @@ The company said it would improve developer productivity.
 Customers welcomed the announcement because it simplifies daily tasks.
 ```
 
-### Coreference Resolution
+#### Coreference Resolution
 
 ```text
 The company → Microsoft
@@ -252,14 +252,14 @@ The company → Microsoft
 it → Copilot
 ```
 
-### Context Tracking
+#### Context Tracking
 
 ```text
 Topic:
 Microsoft → Copilot → Developer Productivity
 ```
 
-### Discourse Parsing
+#### Discourse Parsing
 
 ```text
 Sentence 2
@@ -276,8 +276,7 @@ Sentence 2
 ```
 
 
-
-# Industry Applications
+## Industry Applications
 
 | Domain | Usage |
 |---------|-------|
@@ -293,7 +292,7 @@ Sentence 2
 
 
 
-# Traditional NLP vs Modern LLMs
+## Traditional NLP vs Modern LLMs
 
 | Technique | Traditional NLP | Modern LLMs |
 |------------|-----------------|-------------|
