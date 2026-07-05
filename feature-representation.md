@@ -1,7 +1,7 @@
 # Feature Representation in NLP
 
 ## Overview
-**Feature Representation** is the process of converting human language into numerical vectors that machine learning and deep learning models can process.  
+**Feature Representation** is the process of converting human language into numerical vectors that machine learning and deep learning models can process while  preserving **semantic**, **relationship**, **similarity**, **intent**, and **contextual** information.  
 
 Since computers cannot directly interpret text, NLP systems transform words, sentences, or documents into vectors while attempting to preserve **semantic**, **relationship**, **similarity**, **intent**, and **contextual** information.  
 
